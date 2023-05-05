@@ -1,2 +1,7 @@
 參考資料
 1. Hot Reload - https://docs.nestjs.com/recipes/hot-reload
+
+
+用到的指令
+npm run start:dev
+docker-compose up -d

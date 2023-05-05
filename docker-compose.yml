@@ -1,0 +1,15 @@
+version: '1.0.0'
+services:
+  dev-db:
+    image: postgres:13
+    ports:
+      - 5434:5432
+    environment:
+      POSTGRES_USER: root
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: bookmark
+    networks:
+      - myNetwork
+
+networks:
+  myNetwork:
